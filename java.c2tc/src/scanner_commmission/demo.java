@@ -1,4 +1,4 @@
-package thirdpackage;
+package scanner_commmission;
 
 import java.util.Scanner;
 public class demo {

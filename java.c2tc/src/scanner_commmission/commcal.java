@@ -1,4 +1,4 @@
-package thirdpackage;
+package scanner_commmission;
 
 public class commcal {
 	public void calcom(commission c)

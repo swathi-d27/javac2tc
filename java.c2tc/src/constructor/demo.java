@@ -1,4 +1,4 @@
-package fsecpackage;
+package constructor;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package firstpackage;
+package demo;
 
 public class prg 
     {

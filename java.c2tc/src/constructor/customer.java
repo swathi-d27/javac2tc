@@ -1,4 +1,4 @@
-package fsecpackage;
+package constructor;
 
 public class customer {
 	private String name;

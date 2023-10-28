@@ -1,4 +1,4 @@
-package fsecpackage;
+package scanner_circle;
 
 public class circle {
 	private int radius;

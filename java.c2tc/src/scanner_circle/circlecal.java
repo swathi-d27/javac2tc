@@ -1,4 +1,4 @@
-package fsecpackage;
+package scanner_circle;
 
 import java.util.Scanner;
 

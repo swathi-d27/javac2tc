@@ -1,4 +1,4 @@
-package thirdpackage;
+package scanner_commmission;
 
 public class commission {
 	private String name;

@@ -1,4 +1,4 @@
-package firstpackage;
+package scanner;
 
 public class tax {
 	public  void calculateTax(person p)

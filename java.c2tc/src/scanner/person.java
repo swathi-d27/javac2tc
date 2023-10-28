@@ -1,4 +1,4 @@
-package firstpackage;
+package scanner;
 
 public class person {
 	private String name;
