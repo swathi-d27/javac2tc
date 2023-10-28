@@ -10,6 +10,8 @@ public class Extendingthread extends Thread {
 		Extendingthread t=new Extendingthread();//new state
 		t.start();//runnable state
 		System.out.println("start method is implemented");
+		System.out.println(t.getName());
+		System.out.println(t.getPriority());
 		
 		
 	}

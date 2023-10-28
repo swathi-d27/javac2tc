@@ -1,6 +1,6 @@
-package package5;
+package abstraction;
 
-public class Rectangle extends Square{
+public class Rectangle extends Shape{
 		private float width,height;
 		public Rectangle()
 		{
@@ -12,7 +12,7 @@ public class Rectangle extends Square{
 			this.width = width;
 			this.height = height;
 		}
-		void calarea()
+		void calcarea()
 		{
 			super.area=width*height;
 			

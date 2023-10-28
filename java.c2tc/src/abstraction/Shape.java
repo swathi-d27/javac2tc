@@ -1,4 +1,4 @@
-package package5;
+package abstraction;
 
 
 
@@ -8,7 +8,7 @@ package package5;
 		
 			void show()
 			{
-				System.out.println("area of the shape is"+area);
+				System.out.println("area of the shape is  "+area);
 			}
 		
 

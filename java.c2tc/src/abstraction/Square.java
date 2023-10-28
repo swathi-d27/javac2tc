@@ -1,7 +1,6 @@
-package package5;
+package abstraction;
 
-public class Square 
-extends Shape {
+public class Square extends Shape {
 	private float side;
 	 public Square()
 	{

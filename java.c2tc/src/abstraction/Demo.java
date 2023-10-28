@@ -1,4 +1,4 @@
-package package5;
+package abstraction;
 
 
 	public class Demo {
@@ -9,7 +9,16 @@ package package5;
 			Rectangle rec=new Rectangle();
 			System.out.println(sq);
 			System.out.println(rec);
-			//shape s=new Shape
+			//Shape s=new Shape();
+			Shape s;
+			s=new Square(4.0f);
+			s.calcarea();
+			s.show();
+			
+			s=new Rectangle(4.0f,2.0f);
+			s.calcarea();
+			s.show();
+			
 			
 		}
 
