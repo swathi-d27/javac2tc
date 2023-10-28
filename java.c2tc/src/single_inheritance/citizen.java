@@ -1,4 +1,4 @@
-package inheritance;
+package single_inheritance;
 
 public class citizen {
 	private String name;
