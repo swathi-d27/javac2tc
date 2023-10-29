@@ -1,4 +1,4 @@
-package exception;
+package exception_try_catch;
 
 public class demo {
 	public static void main(String[]args)
