@@ -8,7 +8,7 @@ public class demo {
 			userdefined.validate();
 			
 		}
-		catch(age e)
+		catch(hel e)
 		{
 			System.out.println("caught :"+e.getMessage());
 		}
