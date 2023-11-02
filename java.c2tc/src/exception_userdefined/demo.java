@@ -8,7 +8,7 @@ public class demo {
 			userdefined.validate();
 			
 		}
-		catch(hel e)
+		catch(hello e)
 		{
 			System.out.println("caught :"+e.getMessage());
 		}

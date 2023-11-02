@@ -3,15 +3,15 @@ import java.util.*;
 
 public class userdefined {
 	private static int age;
-	static void validate() throws hel
+	static void validate() throws hello
 	{
-		Scanner c=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		System.out.println("ENTER AGE:");
-		age=c.nextInt();
+		age=sc.nextInt();
 		
 		if(age<18)
 		
-			throw new hel("Invalidate");
+			throw new hello("Invalidate");
 		
 		else
 		
