@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import java.awt.PageAttributes.MediaType;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -40,15 +42,17 @@ public class ProductController {
 		}
 	}
     //RESTful API methods for Create operation
-	@PostMapping("/product")
-	public void add(@RequestBody Product product)
+	@PostMapping(value = "/product/add", consumes = "application/json")
+
+	@ResponseStatus(code=HttpStatus.CREATED)
+	public ResponseEntity<String> add(@RequestBody Product product)
 	{
 		service.save(product);
-		
+		return  ResponseEntity.ok("inserted");
 	}
 	//RESTful API methods for Update operation
 	@SuppressWarnings("unused")
-	@PutMapping("/product/{id}")
+	@PutMapping("/product/update/{id}")
 	public ResponseEntity<?> update(@RequestBody Product product,@PathVariable Integer id)
 	{
 		try
@@ -63,7 +67,7 @@ public class ProductController {
 		}
 	}
 	//RESTful API method for Delete operations
-	@DeleteMapping("/product/{id}")
+	@DeleteMapping("/product/delete/{id}")
 	public void delete(@PathVariable Integer id)
 	{
 		service.delete(id);
