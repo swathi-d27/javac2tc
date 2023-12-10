@@ -1,6 +1,7 @@
 package com.example.demo;
 
 
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -70,18 +71,17 @@ public class Product {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
+
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", dob=" + dob + ", address=" + address + ", shop_id=" + shop_id
 				+ "]";
 	}
+	
 
 
-	public Integer size() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 	    
  
   
-}
